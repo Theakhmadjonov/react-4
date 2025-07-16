@@ -13,7 +13,7 @@ import profile from "./images/Icon.svg";
 
 const Header = () => {
   return (
-    <header>
+    <header>  
       <div className="header-top bg-[#12253e]">
         <div className="my-con flex items-center justify-between py-[25px]">
           <div className="hedaer-top-left flex gap-7">
