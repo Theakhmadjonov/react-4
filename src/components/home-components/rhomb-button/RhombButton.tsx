@@ -18,7 +18,7 @@ const RhombButton: React.FC<Props> = ({
 }): JSX.Element => {
   return (
     <button
-      className={`btn ${width} ${height} ${textSize} ${color ? color : ""}`}
+      className={`btn ${width} ${height} ${textSize} ${color ? color : ""} z-50 rounded-[5px] text-[white]`}
     >
       {children}
     </button>
