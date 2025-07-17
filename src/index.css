@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .my-con {
-  max-width: 85%;
+  max-width: 1300px;
   margin: 0 auto;
 }
 

@@ -45,11 +45,11 @@ const Spotlight = () => {
                 <h1 className="text-[#bacce1] text-[13px] font-semibold">
                   BY ADMIN
                 </h1>
-                <img src={vector} alt="" className="w-[16px] h-[16px]" />
+                <img src={vector} alt="" className="w-[16px] h-[16px] ml-[15px]" />
                 <h2 className="text-[#bacce1] text-[13px] font-semibold">
                   27 August, 2024
                 </h2>
-                <img src={time} alt="" className="w-[78px] h-[16px]" />
+                <img src={time} alt="" className="w-[78px] h-[16px] ml-[15px]" />
               </div>
             </div>
             <div className="ml-[30px]">
@@ -126,7 +126,7 @@ const Spotlight = () => {
           </div>
         </div>
         <div className="bottom flex">
-          <div className="top-right flex items-center absolute right-[11%]">
+          <div className="top-right flex items-center absolute right-[14%]">
             <img src={heading2} alt="" className="w-[148px] h-[40px] z-10" />
             <div className="border-[2px] border-[#dfdfdf] w-[196px] h-[5px] absolute left-[130px]"></div>
           </div>

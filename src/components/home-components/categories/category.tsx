@@ -15,7 +15,7 @@ const Category = () => {
           <img src={heading} alt="" className="w-[248px] h-[40px] z-10" />
           <div className="border-[2px] border-[#dfdfdf] w-[75%] h-[5px] absolute left-[240px] "></div>
         </div>
-        <div className="cat-med flex gap-[5%] mt-[48px]">
+        <div className="cat-med flex gap-[42px] mt-[48px]">
           <img src={action} alt="" className="w-[180px] h-[180px]" />
           <img src={gaming} alt="" className="w-[180px] h-[180px]" />
           <img src={racing} alt="" className="w-[180px] h-[180px]" />

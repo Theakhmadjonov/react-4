@@ -2,7 +2,6 @@ import type { HTMLAttributes, JSX } from "react";
 import "./rhombButton.css";
 
 interface Props extends HTMLAttributes<HTMLButtonElement> {
-  textSize: string;
   width: string;
   height: string;
   color?: string;
@@ -10,7 +9,6 @@ interface Props extends HTMLAttributes<HTMLButtonElement> {
 }
 
 const RhombButton: React.FC<Props> = ({
-  textSize,
   width,
   height,
   color,
@@ -18,9 +16,9 @@ const RhombButton: React.FC<Props> = ({
 }): JSX.Element => {
   return (
     <button
-      className={`btn ${width} ${height} ${textSize} ${color ? color : ""} z-50 rounded-[5px] text-[white]`}
+      className={`btn ${width} ${height} ${color ? color : ""} z-50 rounded-[5px] text-[white] bg-[#f4796c] font-extrabold`}
     >
-      {children}
+      <h1 className="text-btn">{children}</h1>
     </button>
   );
 };
