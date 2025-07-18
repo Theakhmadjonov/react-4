@@ -1,11 +1,6 @@
 import heading from "./images/Heading 6.svg";
-import action from "./images/Container(2).svg";
-import gaming from "./images/Container(3).svg";
-import racing from "./images/Container(4).svg";
-import animation from "./images/Container(5).svg";
-import fighter from "./images/Container(6).svg";
-import story from "./images/Container(7).svg";
 import link from "./images/Link.svg";
+import "./cat.css";
 
 const Category = () => {
   return (
@@ -16,15 +11,39 @@ const Category = () => {
           <div className="border-[2px] border-[#dfdfdf] w-[75%] h-[5px] absolute left-[240px] "></div>
         </div>
         <div className="cat-med flex gap-[42px] mt-[48px]">
-          <img src={action} alt="" className="w-[180px] h-[180px]" />
-          <img src={gaming} alt="" className="w-[180px] h-[180px]" />
-          <img src={racing} alt="" className="w-[180px] h-[180px]" />
-          <img src={animation} alt="" className="w-[180px] h-[180px]" />
-          <img src={fighter} alt="" className="w-[180px] h-[180px]" />
-          <img src={story} alt="" className="w-[180px] h-[180px]" />
+          <div className="w-[180px] h-[180px] cat-1 rounded-[50px] flex items-end justify-center">
+            <button className="text-[13px] font-semibold text-[rgba(255,_255,_255,_1)] py-[4px] px-[10px] bg-[rgba(255,_255,_255,_0.3)] rounded-[3px] mb-[40px]">
+              hcsbjcknm
+            </button>
+          </div>
+          <div className="w-[180px] h-[180px] cat-2 rounded-[50px] flex items-end justify-center">
+            <button className="text-[13px] font-semibold text-[rgba(255,_255,_255,_1)] py-[4px] px-[10px] bg-[rgba(255,_255,_255,_0.3)] rounded-[3px] mb-[40px]">
+              hcsbjcknm
+            </button>
+          </div>
+          <div className="w-[180px] h-[180px] cat-3 rounded-[50px] flex items-end justify-center">
+            <button className="text-[13px] font-semibold text-[rgba(255,_255,_255,_1)] py-[4px] px-[10px] bg-[rgba(255,_255,_255,_0.3)] rounded-[3px] mb-[40px]">
+              hcsbjcknm
+            </button>
+          </div>
+          <div className="w-[180px] h-[180px] cat-4 rounded-[50px] flex items-end justify-center">
+            <button className="text-[13px] font-semibold text-[rgba(255,_255,_255,_1)] py-[4px] px-[10px] bg-[rgba(255,_255,_255,_0.3)] rounded-[3px] mb-[40px]">
+              hcsbjcknm
+            </button>
+          </div>
+          <div className="w-[180px] h-[180px] cat-5 rounded-[50px] flex items-end justify-center">
+            <button className="text-[13px] font-semibold text-[rgba(255,_255,_255,_1)] py-[4px] px-[10px] bg-[rgba(255,_255,_255,_0.3)] rounded-[3px] mb-[40px]">
+              hcsbjcknm
+            </button>
+          </div>
+          <div className="w-[180px] h-[180px] cat-6 rounded-[50px] flex items-end justify-center">
+            <button className="text-[13px] font-semibold text-[rgba(255,_255,_255,_1)] py-[4px] px-[10px] bg-[rgba(255,_255,_255,_0.3)] rounded-[3px] mb-[40px]">
+              hcsbjcknm
+            </button>
+          </div>
         </div>
         <div className="cat-bottom mt-[70px]">
-          <img src={link} alt="" className="w-[984px] h-[120px] mx-auto"/>
+          <img src={link} alt="" className="w-[984px] h-[120px] mx-auto" />
         </div>
       </div>
     </section>

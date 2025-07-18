@@ -1,0 +1,41 @@
+.cat-1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(./images/Link18.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.cat-2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(./images/Link19.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.cat-3 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(./images/Link20.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.cat-4 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(./images/Link21.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.cat-5 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(./images/Link22.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.cat-6 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(./images/Link23.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
