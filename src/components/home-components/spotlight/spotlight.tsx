@@ -45,11 +45,19 @@ const Spotlight = () => {
                 <h1 className="text-[#bacce1] text-[13px] font-semibold">
                   BY ADMIN
                 </h1>
-                <img src={vector} alt="" className="w-[16px] h-[16px] ml-[15px]" />
+                <img
+                  src={vector}
+                  alt=""
+                  className="w-[16px] h-[16px] ml-[15px]"
+                />
                 <h2 className="text-[#bacce1] text-[13px] font-semibold">
                   27 August, 2024
                 </h2>
-                <img src={time} alt="" className="w-[78px] h-[16px] ml-[15px]" />
+                <img
+                  src={time}
+                  alt=""
+                  className="w-[78px] h-[16px] ml-[15px]"
+                />
               </div>
             </div>
             <div className="ml-[30px]">
@@ -64,9 +72,12 @@ const Spotlight = () => {
                   <h1 className="mt-[8px] w-[193px] text-[20px] font-bold text-[rgba(24,_51,_84,_1)]">
                     Fortnite Ratings are Skyrocketing
                   </h1>
-                  <h2 className="text-[#bacce1] text-[13px] font-semibold mt-[14px]">
-                    27 August, 2024
-                  </h2>
+                  <div className="flex items-center mt-[14px]">
+                    <img src={vector} alt="" className="w-[16px] h-[16px]" />
+                    <h2 className="text-[#bacce1] text-[13px] font-semibold ml-[5px]">
+                      27 August, 2024
+                    </h2>
+                  </div>
                 </div>
                 <div className="w-[140px] mt-[10px]">
                   <img
@@ -87,9 +98,12 @@ const Spotlight = () => {
                   <h1 className="mt-[8px] w-[200px] text-[20px] font-bold text-[rgba(24,_51,_84,_1)]">
                     Everything You Need To Know About
                   </h1>
-                  <h2 className="text-[#bacce1] text-[13px] font-semibold mt-[14px]">
-                    27 August, 2024
-                  </h2>
+                  <div className="flex items-center mt-[14px]">
+                    <img src={vector} alt="" className="w-[16px] h-[16px]" />
+                    <h2 className="text-[#bacce1] text-[13px] font-semibold ml-[5px]">
+                      27 August, 2024
+                    </h2>
+                  </div>
                 </div>
                 <div className="w-[140px] mt-[10px]">
                   <img
@@ -110,9 +124,12 @@ const Spotlight = () => {
                   <h1 className="mt-[8px] w-[196px] text-[20px] font-bold text-[rgba(24,_51,_84,_1)]">
                     We Can`t Wait to Try This Gaming Area
                   </h1>
-                  <h2 className="text-[#bacce1] text-[13px] font-semibold mt-[14px]">
-                    27 August, 2024
-                  </h2>
+                  <div className="flex items-center mt-[14px]">
+                    <img src={vector} alt="" className="w-[16px] h-[16px]" />
+                    <h2 className="text-[#bacce1] text-[13px] font-semibold ml-[5px]">
+                      27 August, 2024
+                    </h2>
+                  </div>
                 </div>
                 <div className="w-[140px] mt-[10px]">
                   <img
