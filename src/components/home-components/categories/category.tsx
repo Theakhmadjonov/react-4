@@ -13,32 +13,32 @@ const Category = () => {
         <div className="cat-med flex gap-[42px] mt-[48px]">
           <div className="w-[180px] h-[180px] cat-1 rounded-[50px] flex items-end justify-center">
             <button className="text-[13px] font-semibold text-[rgba(255,_255,_255,_1)] py-[4px] px-[10px] bg-[rgba(255,_255,_255,_0.3)] rounded-[3px] mb-[40px]">
-              hcsbjcknm
+              ACTION
             </button>
           </div>
           <div className="w-[180px] h-[180px] cat-2 rounded-[50px] flex items-end justify-center">
             <button className="text-[13px] font-semibold text-[rgba(255,_255,_255,_1)] py-[4px] px-[10px] bg-[rgba(255,_255,_255,_0.3)] rounded-[3px] mb-[40px]">
-              hcsbjcknm
+              GAMING
             </button>
           </div>
           <div className="w-[180px] h-[180px] cat-3 rounded-[50px] flex items-end justify-center">
             <button className="text-[13px] font-semibold text-[rgba(255,_255,_255,_1)] py-[4px] px-[10px] bg-[rgba(255,_255,_255,_0.3)] rounded-[3px] mb-[40px]">
-              hcsbjcknm
+              RACING
             </button>
           </div>
           <div className="w-[180px] h-[180px] cat-4 rounded-[50px] flex items-end justify-center">
             <button className="text-[13px] font-semibold text-[rgba(255,_255,_255,_1)] py-[4px] px-[10px] bg-[rgba(255,_255,_255,_0.3)] rounded-[3px] mb-[40px]">
-              hcsbjcknm
+              ANIMATION
             </button>
           </div>
           <div className="w-[180px] h-[180px] cat-5 rounded-[50px] flex items-end justify-center">
             <button className="text-[13px] font-semibold text-[rgba(255,_255,_255,_1)] py-[4px] px-[10px] bg-[rgba(255,_255,_255,_0.3)] rounded-[3px] mb-[40px]">
-              hcsbjcknm
+              FIGHTER
             </button>
           </div>
           <div className="w-[180px] h-[180px] cat-6 rounded-[50px] flex items-end justify-center">
             <button className="text-[13px] font-semibold text-[rgba(255,_255,_255,_1)] py-[4px] px-[10px] bg-[rgba(255,_255,_255,_0.3)] rounded-[3px] mb-[40px]">
-              hcsbjcknm
+              STORY
             </button>
           </div>
         </div>
